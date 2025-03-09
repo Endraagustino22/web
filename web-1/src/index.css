@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('/fonts/Rajdhani-Regular.ttf') format('truetype');
+  }
+
+@font-face {
+  font-family: 'CustomFontBold';
+  src: url('/fonts/Rajdhani-Bold.ttf') format('truetype');
+}
+
+  :root {
+      --primary-color: #2E7D32;  /* Jungle Green */
+      --secondary-color: #A5D6A7; /* Leaf Green */
+      --neutral-color: #6D4C41;   /* Earth Brown */
+      --accent-color: #81D4FA;    /* Sky Blue */
+      --highlight-color: #FBC02D; /* Sun Yellow */
+    
+      --text-primary: #2E2E2E;
+      --text-secondary: #4E4E4E;
+    
+      --bg-light: #F5F5F5;
+      --bg-dark: #1B1B1B;
+
+    font-family: 'CustomFontBold', sans-serif;
+  }
