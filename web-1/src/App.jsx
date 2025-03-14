@@ -5,6 +5,8 @@ import './App.css'
 import Navbar from './components/Navbar'
 import LandingPage from './components/LandingPage'
 import AnimalList from './components/AnimalList'
+import ZooMap from './components/ZooMap'
+import Maps from './components/Maps'
 
 function App() {
 
@@ -13,6 +15,7 @@ function App() {
       <Navbar></Navbar>
       <LandingPage></LandingPage>
       <AnimalList></AnimalList>
+      <Maps></Maps>
       <p>ok</p>
       <p>okeeee</p>
       <p>okeeee</p>
