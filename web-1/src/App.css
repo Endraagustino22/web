@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'Slick';
+    src: url('/fonts/slick.woff') format('woff'),
+         url('/fonts/slick.ttf') format('truetype');
+  }
+  

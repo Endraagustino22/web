@@ -9,7 +9,7 @@ export default function LandingPage() {
   });
 
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "40%"]);
 
   return (
     <div className="bg-white">
